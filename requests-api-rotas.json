@@ -1,0 +1,195 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-09-19T21:29:43.998Z",
+  "__export_source": "insomnia.desktop.app:v2021.5.2",
+  "resources": [
+    {
+      "_id": "req_cfc4c671ddea465aab09c581c02c64df",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632076656865,
+      "created": 1632075233180,
+      "url": "{{ _.base_url }}/1",
+      "name": "update state",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n      \"nome\": \"Ceará\",\n      \"regiao\": \"Nordeste\",\n      \"populacao\": 42526,\n      \"capital\": \"Aracati\",\n      \"area\": 45.2\n    }"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_3a1a7036a089446fa1c0834b5e89ffd7"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1632075233181,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "parentId": null,
+      "modified": 1632071964551,
+      "created": 1632071964551,
+      "name": "API-STATES-REQUESTS",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_68ba1a29d17340d69aac85e502db254e",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632076705581,
+      "created": 1632076672031,
+      "url": "{{ _.base_url }}/1",
+      "name": "delete state",
+      "description": "",
+      "method": "DELETE",
+      "body": { "mimeType": "application/json", "text": "" },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_3a1a7036a089446fa1c0834b5e89ffd7"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1632073811082,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_0ec473603dc34cf5ae1c5242d79d9b46",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632076966564,
+      "created": 1632076897868,
+      "url": "{{ _.base_url }}/3",
+      "name": "find this state",
+      "description": "",
+      "method": "GET",
+      "body": { "mimeType": "application/json", "text": "" },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_3a1a7036a089446fa1c0834b5e89ffd7"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1632073100032.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_6361617482d14bf3a80741b3952ef14b",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632085359098,
+      "created": 1632072388983,
+      "url": "{{ _.base_url }}",
+      "name": "list All states",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1632072388983,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_5473bae4ed9f4723866c5171266cc402",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632076302690,
+      "created": 1632072075574,
+      "url": "{{ _.base_url }}",
+      "name": "Insert state",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n      \"nome\": \"Ceará\",\n      \"regiao\": \"Nordeste\",\n      \"populacao\": 42526,\n      \"capital\": \"Fortaleza\",\n      \"area\": 45.2\n    }"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_505d108e9336434592e20b80c084f05c"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1632072075574,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_f59baa623967efec97a722a4cfbdc3abc8067150",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632072134986,
+      "created": 1632071964562,
+      "name": "Base Environment",
+      "data": { "base_url": "http://127.0.0.1:3000/api/states" },
+      "dataPropertyOrder": { "&": ["base_url"] },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1632071964562,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f59baa623967efec97a722a4cfbdc3abc8067150",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632071964564,
+      "created": 1632071964564,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_75598317902f43d6b735e7314c98d128",
+      "parentId": "wrk_3c1cd20478cf4c9b86c896b8a9e53c0b",
+      "modified": 1632071964557,
+      "created": 1632071964557,
+      "fileName": "API-STATES-REQUESTS",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
