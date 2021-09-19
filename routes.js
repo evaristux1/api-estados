@@ -6,4 +6,8 @@ const routes = express.Router();
 const MyRoutes = require("./app/routes");
 
 routes.get("/", MyRoutes.listAllStates);
+routes.get("/:id", MyRoutes.findState);
+routes.post("/", MyRoutes.insertState);
+routes.put("/:id", MyRoutes.updateState);
+routes.delete("/:id", MyRoutes.deleteState);
 module.exports = routes;
